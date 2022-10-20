@@ -7,6 +7,7 @@ import fotoPixl from '../../assets/img/pixels.png'
 import fotoTasks from '../../assets/img/listTasks.png'
 import fotoCart from '../../assets/img/shopping-cart.png'
 import fotoWallet from '../../assets/img/trybe-wallet.png'
+import fotoCook from '../../assets/img/cookmaster.png'
 function Projects() {
 
   const settings = {
@@ -50,7 +51,12 @@ function Projects() {
 
           <SwiperSlide>
             <h1>Esta aplicação wallet de controle de gastos foi desenvolvido para colocar em pratica o Reactjs com Redux e Redux-Devtoos e Redux-thunk consumindo uma Api de moedas. Clik na imagem para saber mais... :)</h1>
-            <a className='fotowallet' href='https://paulynho-lima.github.io/wallet/' target="_blank"><img src={fotoWallet} alt="list-tasks" class="item current-item" /></a>
+            <a className='fotowallet' href='https://paulynho-lima.github.io/wallet/' target="_blank"><img src={fotoWallet} alt="wallet" class="item current-item" /></a>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <h1>Esta é aplicação Back-End desenvolvido um CRUD utilizando o BD. MongoDB na arquitetura MSC seguindo os principíos de API RESTs e a autenticação foi feita via JWT. Clik na imagem para saber mais... :)</h1>
+            <a className='fotowallet' href='https://github.com/Paulynho-lima/Projeto-Cookmaster' target="_blank"><img src={fotoCook} alt="cookmaster" class="item current-item" /></a>
           </SwiperSlide>
         </Carossel>
 
