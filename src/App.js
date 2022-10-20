@@ -1,15 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home/index";
+import "./App.css";
+import "./components/Header/Header.css";
+import About from "./pages/About/index";
+import Contact from "./pages/Contact/index";
+import Projects from "./pages/Projects/index";
+import Header from "./components/Header/index";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Meu portifólio</h1>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/projects" component={Projects} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,58 @@
+.fotoShopping {
+  margin-top: 5%;
+}
+
+.mainProject {
+  background: url("../../assets/img/CapturaEspaço.png");
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 55vw;
+}
+
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 18%;
+  margin-right: 20%;
+}
+
+.projectSection h1 {
+  line-height: 25px;
+  width: 70%;
+  text-align: justify;
+}
+
+.titulo {
+  margin-top: 0px;
+  margin: auto;
+  font-size: 3em;
+  font-family: "Bree Serif";
+  margin-top: 7%;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+@media (max-width: 999px) {
+  .titulo {
+    line-height: 70px;
+    margin-top: 20%;
+  }
+  .projectSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+@media (max-width: 750px) {
+  .titulo {
+    font-size: 25px;
+  }
+}

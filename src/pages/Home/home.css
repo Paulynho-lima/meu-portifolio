@@ -1,0 +1,36 @@
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.home h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+
+.minhaFoto {
+  border-radius: 50%;
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  background: url("../../assets/img/TFSQ.gif") no-repeat center center;
+  background-size: cover;
+  height: 98vw;
+}
+
+@media (max-width: 466px) {
+  .home {
+    margin-top: -25px;
+  }
+  .homeMain {
+    margin-top: 50%;
+  }
+}
