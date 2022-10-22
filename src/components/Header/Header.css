@@ -58,11 +58,24 @@ a {
   list-style: none;
   position: absolute;
   margin-top: -90px;
-  width: 30vw;
-  height: 106vw;
+  width: 23.5vw;
+  height: 150vh;
   background: linear-gradient(50deg, #344a75d7 0%, #0f0e0ef4 100%);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 2;
+  transform: translateX(-20%);
+}
+
+#menus.listitens {
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
 }
 
 .headerHambu .listitens li {
@@ -140,9 +153,16 @@ menumenuOpen {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.menu.menuClose {
-  display: none;
-  width: 0px;
+#menus.menuClose {
+  animation-name: slide2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide2 {
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .menuClose2 {
