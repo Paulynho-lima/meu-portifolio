@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import iconWhats from '../../assets/img/whatsapp.png';
+import iconLink from '../../assets/img/linkedin.png';
+import iconGit from '../../assets/img/github.png';
 import './contact.css';
+
 
 
 function Contact() {
@@ -12,15 +17,35 @@ function Contact() {
     e.preventDefault();
 
     if (name === '' || email === '' || message === '') {
-      alert('Por favor prencher os campos vazio!')
+      alert('Por favor preencher os campos vazio!')
       return;
     };
-    alert('teste')
-  }
+
+    const templateParams = {
+      from_name: name,
+      message: message,
+      email: email
+
+    };
+
+    emailjs.send('service_mjsuzgs', 'template_d5dpfwn', templateParams, '_NkgQssWUDsqDFc0Q')
+      .then((resp) => {
+
+        console.log("Email Enviado com Sucesso", resp.status, resp.text)
+        setName('');
+        setEmail('');
+        setMessage('');
+        alert('Email enviado com sucesso!')
+
+      }, (err) => {
+        console.log('Error: ', err)
+      });
+  };
 
 
   return (
     <main className='maincontato'>
+
       <div className='containeConta'>
         <h1 className='title'> Meus Contatos</h1>
 
@@ -51,6 +76,19 @@ function Contact() {
           <input className='button' type="submit" value="Enviar" />
 
         </form>
+        <div className='divcontato'>
+          <h3>
+            Olá se vôce gostou ou se interessou pelo que viu e gostaria de deixar
+            um elogio fazer uma critica ou uma sugestão pode preencher o formulario ou entrar
+            em contato via endereços a baixo.
+            Obrigado pela Visita!
+          </h3>
+          <div className='divIcons'>
+            <a href=" https://api.whatsapp.com/send?phone=5514997660488&text=Este%20%C3%A9%20meu%20Contato%20whatsApp" target="_blank"><img className='fotoWhats' src={iconWhats} alt="icon-whats" /></a>
+            <a href="https://www.linkedin.com/in/paulo-lima/" target="_blank"><img className='foto' src={iconLink} alt="icon-whats" /></a>
+            <a href="https://github.com/Paulynho-lima" target="_blank"><img className='foto' src={iconGit} alt="icon-whats" /></a>
+          </div>
+        </div>
 
       </div>
     </main>

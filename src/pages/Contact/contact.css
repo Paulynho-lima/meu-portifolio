@@ -1,19 +1,35 @@
+.divcontato {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-left: 50%;
+  margin-top: -26.5%;
+  padding: 20px;
+}
+
+.divcontato h3 {
+  line-height: 25px;
+  text-align: justify;
+  font-size: 22.5px;
+}
 .maincontato {
   background: url("../../assets//img/terra.webp") no-repeat center center;
   height: 135vh;
   background-size: cover;
+  margin-top: -1.7%;
 }
 
 .containeConta {
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin: auto;
+  justify-content: center;
   color: #fff;
-  padding: 20px;
+  padding: 21px;
 }
 
-.containeConta h1 {
+.maincontato h1 {
   justify-content: center;
 }
 
@@ -22,8 +38,24 @@
   width: 30.6%;
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+  margin-left: 20px;
 }
 
+.divIcons img {
+  width: 50px;
+}
+
+.divIcons {
+  padding: 10px;
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fotoWhats {
+  margin-left: -10%;
+}
 .input {
   font-size: 20px;
   margin-bottom: 20px;
@@ -35,7 +67,7 @@
 }
 
 .input:hover {
-  transform: scale(1.1);
+  transform: scale(1.09);
   background-color: #ffffff4e;
 }
 
@@ -59,14 +91,22 @@
 }
 
 .textearea {
+  font-size: 18px;
   margin-bottom: 14px;
   border-radius: 5px;
   border: 0;
-  padding: 8;
+  padding: 20px;
   height: 94px;
   resize: none;
+  transition: background-color, transform 1.8s;
 }
 
+.textearea:hover {
+  transform: scale(1.08);
+  background-color: #ffffff4e;
+}
 .title {
   margin-bottom: 14px;
+  padding: 25px;
+  margin: auto;
 }
