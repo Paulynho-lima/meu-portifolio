@@ -2,12 +2,14 @@ import React from 'react';
 import Carossel from "../../components/Carrosel/index.tsx";
 import { SwiperSlide } from "swiper/react";
 import './projects.css';
-import foto from '../../assets/img/springBoot.png'
-import fotoPixl from '../../assets/img/pixels.png'
-import fotoTasks from '../../assets/img/listTasks.png'
-import fotoCart from '../../assets/img/shopping-cart.png'
-import fotoWallet from '../../assets/img/trybe-wallet.png'
-import fotoCook from '../../assets/img/cookmaster.png'
+import foto from '../../assets/img/springBoot.png';
+import fotoPixl from '../../assets/img/pixels.png';
+import fotoTasks from '../../assets/img/listTasks.png';
+import fotoCart from '../../assets/img/shopping-cart.png';
+import fotoWallet from '../../assets/img/trybe-wallet.png';
+import fotoCook from '../../assets/img/cookmaster.png';
+import fotoStar from '../../assets/img/star-wars.png';
+
 function Projects() {
 
   const settings = {
@@ -50,8 +52,13 @@ function Projects() {
           </SwiperSlide>
 
           <SwiperSlide>
-            <h1>Esta aplicação wallet de controle de gastos foi desenvolvido para colocar em pratica o Reactjs com Redux e Redux-Devtoos e Redux-thunk consumindo uma Api de moedas. Clik na imagem para saber mais... :)</h1>
+            <h1>Esta aplicação wallet de controle de gastos foi desenvolvido para colocar em pratica o Reactjs com Redux, Redux-Devtoos e Redux-thunk consumindo uma Api de moedas. Clik na imagem para saber mais... :)</h1>
             <a className='fotowallet' href='https://paulynho-lima.github.io/wallet/' target="_blank"><img src={fotoWallet} alt="wallet" class="item current-item" /></a>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <h1>Esta aplicação Star-Wars para consultar os planetas de gerra nas estrelas colocar em pratica o Reactjs com Api Context, Usestate e Useffects consumindo uma Api de Planetas. Clik na imagem para saber mais... :)</h1>
+            <a className='fotowallet' href='https://paulynho-lima.github.io/star-wars/' target="_blank"><img src={fotoStar} alt="wallet" class="item current-item" /></a>
           </SwiperSlide>
 
           <SwiperSlide>
