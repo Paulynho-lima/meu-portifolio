@@ -1,0 +1,72 @@
+.maincontato {
+  background: url("../../assets//img/terra.webp") no-repeat center center;
+  height: 135vh;
+  background-size: cover;
+}
+
+.containeConta {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 20px;
+}
+
+.containeConta h1 {
+  justify-content: center;
+}
+
+.form {
+  max-width: 400px;
+  width: 30.6%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: 34px;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
+  transition: background-color, transform 1.1s;
+}
+
+.input:hover {
+  transform: scale(1.1);
+  background-color: #ffffff4e;
+}
+
+.button {
+  height: 34px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: #0fffcf9f;
+  transition: background-color, transform 1.8s;
+  width: 35%;
+  color: aliceblue;
+  font-size: large;
+  margin-top: 35px;
+  margin-left: 120px;
+}
+
+.button:hover {
+  background-color: #0f3fff8e;
+  transform: scale(2.01);
+}
+
+.textearea {
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: 0;
+  padding: 8;
+  height: 94px;
+  resize: none;
+}
+
+.title {
+  margin-bottom: 14px;
+}
