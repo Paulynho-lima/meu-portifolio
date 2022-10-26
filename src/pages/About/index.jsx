@@ -12,7 +12,7 @@ function About() {
       <section className={"sobreText"}>
         <h1>Sobre</h1>
         <p> Sou Paulo Lima nascido na cidade de São Paulo capital  atualmente eu moro na
-          cidade de Tupa Sp sou Casado pai de 2 filhos.
+          cidade de Tupã Sp sou Casado pai de 2 filhos.
         </p>
         <p>
           Apaixonado por técnologia sou estudante de desenvolvimento

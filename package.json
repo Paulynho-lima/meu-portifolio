@@ -27,7 +27,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "env": {
+      "browser": true,
+      "node": true
+  },
+  "eslintIgnore": ["index.tsx", "index.js", "serviceWorker.js", "App.js", "index.jsx", "header.js"]
   },
   "browserslist": {
     "production": [
@@ -44,4 +49,5 @@
   "devDependencies": {
     "typescript": "^4.8.4"
   }
+  
 }

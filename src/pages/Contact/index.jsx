@@ -80,16 +80,15 @@ function Contact() {
           <h3>
             Olá se vôce gostou ou se interessou pelo que viu e gostaria de deixar
             um elogio fazer uma critica ou uma sugestão pode preencher o formulario ou entrar
-            em contato via endereços a baixo.
+            em contato via links a baixo.
             Obrigado pela Visita!
           </h3>
-          <div className='divIcons'>
-            <a href=" https://api.whatsapp.com/send?phone=5514997660488&text=Este%20%C3%A9%20meu%20Contato%20whatsApp" target="_blank"><img className='fotoWhats' src={iconWhats} alt="icon-whats" /></a>
-            <a href="https://www.linkedin.com/in/paulo-lima/" target="_blank"><img className='foto' src={iconLink} alt="icon-whats" /></a>
-            <a href="https://github.com/Paulynho-lima" target="_blank"><img className='foto' src={iconGit} alt="icon-whats" /></a>
-          </div>
         </div>
-
+        <div className='divIcons'>
+          <a href=" https://api.whatsapp.com/send?phone=5514997660488&text=Este%20%C3%A9%20meu%20Contato%20whatsApp" target="_blank"><img className='fotoWhats' src={iconWhats} alt="icon-whats" /></a>
+          <a href="https://www.linkedin.com/in/paulo-lima/" target="_blank"><img className='foto' src={iconLink} alt="icon-whats" /></a>
+          <a href="https://github.com/Paulynho-lima" target="_blank"><img className='foto' src={iconGit} alt="icon-whats" /></a>
+        </div>
       </div>
     </main>
   );

@@ -179,6 +179,7 @@ menumenuOpen {
   }
 
   .headerHambu .listitens {
-    height: 317vw;
+    height: 316.6vw;
+    transform: translateX(1.8%);
   }
 }
