@@ -10,10 +10,11 @@
 .home h1 {
   font-family: "Times New Roman", Times, serif;
   color: aliceblue;
+  font-size: 28px;
 }
 
 .minhaFoto {
-  border-radius: 50%;
+  border-radius: 45%;
   height: 80vmin;
   pointer-events: none;
 }
@@ -23,14 +24,29 @@
   flex-direction: column;
   background: url("../../assets/img/TFSQ.gif") no-repeat center center;
   background-size: cover;
-  height: 98vw;
+  height: 67.8vw;
+  margin-top: -1%;
 }
 
-@media (max-width: 466px) {
+@media (max-width: 470px) {
   .home {
-    margin-top: -25px;
+    margin-top: 5px;
   }
   .homeMain {
-    margin-top: 50%;
+    margin-top: 30%;
+    height: 70.8vh;
+  }
+  .home h1 {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 470px) {
+  .home h1 {
+    font-size: 20px;
+  }
+  .homeMain {
+    margin-top: 5%;
+    height: 120.8vh;
   }
 }

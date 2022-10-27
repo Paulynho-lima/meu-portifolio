@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import reactIcon from '../../assets/img/favicon.ico';
 import { Menu } from './header'
 
@@ -15,13 +15,13 @@ function Linkes() {
   return (
     <header>
       <Menu>
-        <section id="menus" className={active ? "headerHambu listitens" : "menuClose"} >
+        <section id="menus" className={active ? "headerHambu listitens" : "menuClose"} onClick={modelToggle} >
           <div className='headerHambu'>
             <ul className='listitens'>
-              <li><Link className='link2' to="/">Página Inicial</Link></li>
-              <li><Link className='link2' to="/about">Sobre Min</Link></li>
-              <li><Link className='link2' to="/projects">Meus Projetos</Link></li>
-              <li><Link className='link2' to="/contact">Meus Contatos</Link></li>
+              <li>< NavLink activeClassName='link2' to="/">Página Inicial</ NavLink ></li>
+              <li>< NavLink className=' link2' to="/about">Sobre Min</ NavLink ></li>
+              <li>< NavLink className=' link2' to="/projects">Meus Projetos</ NavLink ></li>
+              <li>< NavLink className=' link2' to="/contact">Meus Contatos</NavLink></li>
             </ul>
           </div>
 
@@ -43,14 +43,14 @@ function Linkes() {
               alt="icone do react"
             />
           </a>
-          <Link className='link' to="/">Página Inicial</Link>
-          <Link className='link' to="/about">Sobre Min</Link>
-          <Link className='link' to="/projects">Meus Projetos</Link>
+          < NavLink className='link' to="/">Página Inicial</NavLink>
+          < NavLink className='link' to="/about">Sobre Min</NavLink>
+          < NavLink className='link' to="/projects">Meus Projetos</NavLink>
 
         </div>
       </nav>
 
-    </header>
+    </header >
   )
 }
 export default Linkes;

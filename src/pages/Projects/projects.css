@@ -29,7 +29,6 @@
 }
 
 .titulo {
-  margin-top: 0px;
   margin: auto;
   font-size: 3em;
   font-family: "Bree Serif";
@@ -41,7 +40,7 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 999px) {
+@media only screen and (max-width: 999px) and (min-width: 470px) {
   .titulo {
     line-height: 70px;
     margin-top: 20%;
@@ -58,5 +57,68 @@ a {
 @media (max-width: 750px) {
   .titulo {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 470px) {
+  .titulo {
+    line-height: 70px;
+    margin-top: 18%;
+  }
+  .projectSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .projectSection h1 {
+    margin-top: -100%;
+
+    width: 400px;
+    font-size: 20px;
+  }
+
+  .carro {
+    margin-top: 100%;
+  }
+
+  .fotoVendas {
+    height: 340px;
+    width: 320px;
+  }
+  .fotoPix {
+    height: 390px;
+    width: 320px;
+  }
+
+  .fotoTask {
+    height: 390px;
+    width: 320px;
+  }
+  .fotoShopping {
+    height: 370px;
+    width: 320px;
+  }
+
+  .fotowallet {
+    height: 370px;
+    width: 320px;
+  }
+
+  .fotostar {
+    height: 320px;
+    width: 320px;
+  }
+
+  .fotocook {
+    height: 320px;
+    width: 320px;
+  }
+
+  .fotoblog {
+    height: 320px;
+    width: 320px;
   }
 }
