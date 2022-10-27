@@ -13,9 +13,9 @@
   text-align: justify;
   font-size: 22.5px;
 }
-.maincontato {
-  background: url("../../assets//img/terra.webp") no-repeat center center;
-  height: 139vh;
+.macontato {
+  background: url("../../assets/img/terra.webp") no-repeat center center;
+  height: 167vh;
   background-size: cover;
   margin-top: -1.7%;
 }
@@ -29,7 +29,7 @@
   padding: 21px;
 }
 
-.maincontato h1 {
+.macontato h1 {
   justify-content: center;
 }
 
@@ -144,7 +144,7 @@
     margin-left: 1%;
     display: flex;
   }
-  .maincontato {
+  .macontato {
     height: 170.5vh;
     margin-top: -3.5%;
   }
@@ -181,7 +181,7 @@
     margin-left: 13%;
     display: flex;
   }
-  .maincontato {
-    height: 270vh;
+  .macontato {
+    height: 286vh;
   }
 }

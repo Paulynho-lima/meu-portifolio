@@ -72,12 +72,13 @@
   margin-top: -40px;
 }
 
-.mainAbout {
+.Aboutman {
   background: url("../../assets/img/universo4.png");
   display: flex;
   flex-direction: column;
   background-size: cover;
-  height: 99vw;
+  height: 165.5vh;
+  margin-top: -1%;
 }
 
 h1 {
@@ -97,13 +98,10 @@ h3 {
   margin-left: -20px;
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 470px) {
   img {
     width: 50%;
   }
-}
-
-@media (max-width: 999px) {
   .fotos {
     display: flex;
     flex-direction: column;
@@ -150,11 +148,71 @@ h3 {
     margin-right: 50px;
     justify-content: center;
   }
-  main {
-    height: 295vw;
+  .Aboutman {
+    height: 133.3vh;
   }
 
   .staks {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 470px) {
+  .fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fotos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotoForm {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 35vmin;
+    margin-top: 14%;
+  }
+
+  .fotoNiver {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 38vmin;
+    margin-top: 1%;
+    margin-right: 53px;
+  }
+  .fotoNiver2 {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 40vmin;
+    margin-top: 1%;
+    margin-left: 20px;
+  }
+
+  .fotoAr {
+    margin-right: 110px;
+    margin-top: 1%;
+  }
+
+  h1 {
+    padding: 5px;
+  }
+
+  h2 {
+    margin-right: 50px;
+    justify-content: center;
+  }
+  .Aboutman {
+    height: 290vh;
+  }
+
+  .staks {
+    display: none;
+  }
+
+  img {
+    width: 50%;
   }
 }

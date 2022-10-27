@@ -8,7 +8,7 @@ import logo4 from '../../assets/img/fotoAr.jpeg'
 
 function About() {
   return (
-    <main className='mainAbout'>
+    <main className='Aboutman'>
       <section className={"sobreText"}>
         <h1>Sobre</h1>
         <p> Sou Paulo Lima nascido na cidade de São Paulo capital  atualmente eu moro na

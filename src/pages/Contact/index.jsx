@@ -44,7 +44,7 @@ function Contact() {
 
 
   return (
-    <main className='maincontato'>
+    <main className='macontato'>
 
       <div className='containeConta'>
         <h1 className='title'> Meus Contatos</h1>

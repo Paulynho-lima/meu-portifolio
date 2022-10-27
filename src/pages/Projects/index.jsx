@@ -26,7 +26,7 @@ function Projects() {
   };
 
   return (
-    <main className='mainProject'>
+    <main className='minProject'>
       <h2 className='titulo'>Alguns Projetos Desenvolvidos</h2>
       <section className='projectSection'>
         <Carossel settings={settings}>

@@ -24,7 +24,7 @@
   flex-direction: column;
   background: url("../../assets/img/TFSQ.gif") no-repeat center center;
   background-size: cover;
-  height: 67.8vw;
+  height: 165.8vh;
   margin-top: -1%;
 }
 
@@ -46,7 +46,7 @@
     font-size: 20px;
   }
   .homeMain {
-    margin-top: 5%;
-    height: 120.8vh;
+    margin-top: 3%;
+    height: 140.8vh;
   }
 }
