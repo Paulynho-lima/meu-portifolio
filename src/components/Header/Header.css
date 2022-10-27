@@ -180,6 +180,16 @@ menumenuOpen {
 
   .headerHambu .listitens {
     height: 316.6vw;
-    transform: translateX(1.8%);
+    transform: translateX(0.1%);
+    z-index: 2;
+  }
+
+  #menus.menuClose {
+    animation-duration: 10s;
+  }
+  @keyframes slide {
+    from {
+      transform: translateX("");
+    }
   }
 }
