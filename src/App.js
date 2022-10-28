@@ -10,7 +10,7 @@ import Header from "./components/Header/index";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />

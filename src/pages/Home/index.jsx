@@ -8,7 +8,7 @@ function Home() {
   return (
     <main className='homeMain'>
       <section className="home">
-        <h1>OLÁ SOU PAULO LIMA SOU UM DESENVOLVEDOR FULL-STAK JUNIOR</h1>
+        <h1>OLÁ SOU PAULO LIMA SOU UM DESENVOLVEDOR FULL-STACK JUNIOR</h1>
 
         <img src={logo} className="minhaFoto" alt="minha-foto" />
 

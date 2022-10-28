@@ -2,6 +2,7 @@
   "name": "exercise-portfolio-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Paulynho-lima.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@types/react": "^18.0.21",
     "bootstrap": "^5.2.2",
+    "gh-pages": "^4.0.0",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.14.0",
     "react-bootstrap": "^2.5.0",
@@ -21,6 +23,8 @@
     "swiper": "^8.4.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,8 +35,15 @@
     "env": {
       "browser": true,
       "node": true
-  },
-  "eslintIgnore": ["index.tsx", "index.js", "serviceWorker.js", "App.js", "index.jsx", "header.js"]
+    },
+    "eslintIgnore": [
+      "index.tsx",
+      "index.js",
+      "serviceWorker.js",
+      "App.js",
+      "index.jsx",
+      "header.js"
+    ]
   },
   "browserslist": {
     "production": [
@@ -49,5 +60,4 @@
   "devDependencies": {
     "typescript": "^4.8.4"
   }
-  
 }
