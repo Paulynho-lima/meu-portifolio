@@ -234,6 +234,7 @@ h3 {
     border-radius: 20%;
     height: 35vmin;
     margin-top: 17%;
+    margin-left: 50px;
   }
 
   .fotoNiver {
@@ -242,18 +243,20 @@ h3 {
     height: 38vmin;
     margin-top: 3%;
     margin-right: 53px;
+    margin-left: 110px;
   }
   .fotoNiver2 {
     flex-wrap: wrap;
     border-radius: 20%;
     height: 40vmin;
     margin-top: 3%;
-    margin-left: 20px;
+    margin-left: 85px;
   }
 
   .fotoAr {
     margin-right: 110px;
     margin-top: 3%;
+    margin-left: 120px;
   }
 
   h1 {
@@ -263,9 +266,10 @@ h3 {
   h2 {
     margin-right: 50px;
     justify-content: center;
+    margin-left: 60px;
   }
   .Aboutman {
-    height: 160vh;
+    height: 189.5vh;
   }
 
   .staks {

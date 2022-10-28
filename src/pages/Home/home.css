@@ -28,9 +28,9 @@
   margin-top: -1%;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 400px) {
   .home {
-    margin-top: 5px;
+    margin-top: -10%;
   }
   .homeMain {
     margin-top: 30%;
