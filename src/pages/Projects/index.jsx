@@ -32,7 +32,7 @@ function Projects() {
         <Carossel settings={settings}>
           <SwiperSlide className='carro'>
 
-            <h1>Projeto de treinamento spring boot Java IDE STS,foi desenvovido um CRUD no back-end e ReactTs no front-end.
+            <h1>Projeto de treinamento spring boot Java IDE STS, foi desenvovido um CRUD no back-end e ReactTs no front-end.
               Clik na imagem para interagir com interface ao entrar na pagina clik F5 para carregar o back-end :)</h1>
             <a className='fotoVendas' href='https://dsmeta-paulynho.netlify.app/' target="_blank"><img src={foto} alt="Cadastro de vendas" class="item current-item" /></a>
 

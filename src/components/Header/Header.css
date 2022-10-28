@@ -193,3 +193,9 @@ menumenuOpen {
     }
   }
 }
+
+@media (max-width: 400px) and (min-width: 280px) {
+  .headerHambu .listitens {
+    height: 352.7vw;
+  }
+}

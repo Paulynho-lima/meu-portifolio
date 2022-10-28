@@ -185,3 +185,42 @@
     height: 286vh;
   }
 }
+
+@media (max-width: 400px) and (min-width: 280px) {
+  .title {
+    padding: 33px;
+    font-size: 23px;
+  }
+
+  .form {
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100%;
+    margin-left: 10px;
+  }
+
+  .divcontato {
+    max-width: 270px;
+    margin-left: 9%;
+    margin-top: -200%;
+  }
+
+  .divcontato h3 {
+    font-size: 20px;
+  }
+
+  .button {
+    margin-left: 75px;
+  }
+
+  .divIcons {
+    margin-top: 160%;
+    margin-left: 2%;
+    display: flex;
+  }
+  .macontato {
+    height: 161vh;
+  }
+}
